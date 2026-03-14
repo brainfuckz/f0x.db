@@ -74,6 +74,35 @@ do
                     ControlGradient1 = Color3.fromRGB(255, 255, 255);
                     ControlGradient2 = Color3.fromRGB(200, 200, 200);
                 }
+            elseif (theme == 'main') then
+                
+                theme = {
+                    Primary = Color3.fromRGB(134, 53, 255);
+                    Secondary = Color3.fromRGB(211, 53, 255);
+                    
+                    Window1 = Color3.fromRGB(20, 20, 20);
+                    Window2 = Color3.fromRGB(10, 10, 10);
+                    Window3 = Color3.fromRGB(15, 15, 15);
+                    
+                    Button1 = Color3.fromRGB(15, 15, 15);
+                    Button2 = Color3.fromRGB(20, 20, 20);
+                    Button3 = Color3.fromRGB(35, 35, 35);
+                    Button4 = Color3.fromRGB(40, 40, 40);
+                    
+                    Stroke = Color3.fromRGB(34, 34, 34);
+                    StrokeHover = Color3.fromRGB(89, 49, 150);
+                    
+                    Inset1 = Color3.fromRGB(5, 5, 5);
+                    Inset2 = Color3.fromRGB(0, 0, 0);
+                    Inset3 = Color3.fromRGB(3, 3, 3);
+                    
+                    TextPrimary = Color3.fromRGB(255, 255, 255);
+                    TextStroke = Color3.fromRGB(0, 0, 0);
+                    TextDim = Color3.fromRGB(74, 42, 122);
+                    
+                    ControlGradient1 = Color3.fromRGB(255, 255, 255);
+                    ControlGradient2 = Color3.fromRGB(192, 192, 192);
+                }
             elseif (theme == 'orange') then      -- orange
                 theme = {
                     Primary = Color3.fromRGB(244, 148, 22);
@@ -217,8 +246,8 @@ do
             elseif (theme == 'grape') then       -- purple
                 
                 theme = {
-                    Primary = Color3.fromRGB(134, 53, 255);
-                    Secondary = Color3.fromRGB(211, 53, 255);
+                    Primary = Color3.fromRGB(127, 0, 255);
+                    Secondary = Color3.fromRGB(127,0,127);
                     
                     Window1 = Color3.fromRGB(20, 20, 20);
                     Window2 = Color3.fromRGB(10, 10, 10);
@@ -230,7 +259,7 @@ do
                     Button4 = Color3.fromRGB(40, 40, 40);
                     
                     Stroke = Color3.fromRGB(34, 34, 34);
-                    StrokeHover = Color3.fromRGB(89, 49, 150);
+                    StrokeHover = Color3.fromRGB(131, 49, 150);
                     
                     Inset1 = Color3.fromRGB(5, 5, 5);
                     Inset2 = Color3.fromRGB(0, 0, 0);
@@ -238,7 +267,7 @@ do
                     
                     TextPrimary = Color3.fromRGB(255, 255, 255);
                     TextStroke = Color3.fromRGB(0, 0, 0);
-                    TextDim = Color3.fromRGB(74, 42, 122);
+                    TextDim = Color3.fromRGB(106, 42, 122);
                     
                     ControlGradient1 = Color3.fromRGB(255, 255, 255);
                     ControlGradient2 = Color3.fromRGB(192, 192, 192);
